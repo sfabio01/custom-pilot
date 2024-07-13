@@ -13,6 +13,17 @@ You can set your configuration in the Sidebar panel of the extension:
 3. If your API requires authentication, enter your API Key. It will be sent in the Authorization header of every request
 4. Optionally, adjust the advanced settings as you like
 
-![Sidebar](./images/sidebar.png)
+![Sidebar Overview](./images/sidebar_overview.png)
 
-The model you selected will be used to make completions in any programming language and on any file. In the future, it will be possible to choose a specific model for each language. 
+The model you selected will be used to provide completions in any programming language and on any file.
+
+## Use Custom Pilot with LM Studio
+With LM Studio, you can run LLMs offline on your machine. You can use Custom Pilot to integrate your LLM model running in LM Studio into VS Code. 
+
+Firstly, follow [this guide](https://lmstudio.ai/docs/local-server#using-the-local-server) to run a local webserver in LM Studio.
+
+Then, set the API server URL to `http://<ip_address>:1234` in the Sidebar panel of Custom Pilot, where <ip_address> is the IP address of the machine running LM Studio. For example, if you are running LM Studio on your local machine, you can set the URL to `http://localhost:1234`.
+
+Choose an inference model from the dropdown menu, and you are ready to use your LLM model in VS Code!
+
+
