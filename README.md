@@ -1,4 +1,9 @@
-# Custom Pilot
+<h1 align="center">
+    <picture>
+        <img alt="Custom Pilot" src="./images/headline.png">
+    </picture>
+</h1>
+
 Custom Pilot is a Visual Studio Code extension framework that lets you easily integrate your custom code completion model into VS Code.
 
 ## Getting started
